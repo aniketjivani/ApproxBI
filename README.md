@@ -16,3 +16,11 @@ and https://github.com/DartML/Stein-Variational-Gradient-Descent
 
 Original code for TAGI (from James Goulet et al.): https://github.com/CivML-PolyMtl/TAGI
 
+
+Miscellaneous things to try / check:
+
+1. How does the choice of kernel make learning the SVGD posterior more / less efficient? Would non-stationary kernels be useful in some applications?
+
+2. Is there a nice way to do kernel operations in Fourier space ala FNOs?
+
+3. Connections to other divergence measures?
