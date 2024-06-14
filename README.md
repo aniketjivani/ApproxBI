@@ -1,12 +1,18 @@
-Implement TAGI, comparison with other methods (SVGD, VI, MCMC?) and some experiments. 
+Implement methods for Bayesian inference with a view to discovering new methods, connections to continuous formulations of neural networks, and scalable approximations to handle inference in NNs. 
+
+Current goals are:
+1. SVGD
+2. VI
+3. TAGI
+
 What we want to check:
 
-- is an apple-to-apple comparison possible?
+- is an apple-to-apple comparison possible between approximate methods like TAGI and true posterior?
 - quality of posterior (for non-Gaussian, multimodal examples potentially) - note that calibration doesn't exactly answer this question.
 - computational efficiency
 
 
-(if 1 and 2 are possible, there's a good scope of extending TAGI to NN models - specifically NODEs once we can resolve the conceptual issues of propagating uncertainties in time)
+<!-- (if 1 and 2 are possible, there's a good scope of extending TAGI to NN models - specifically NODEs once we can resolve the conceptual issues of propagating uncertainties in time) -->
 
 Thanks to Jiayuan for all the help getting started on TAGI.
 
