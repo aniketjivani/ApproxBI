@@ -1,4 +1,4 @@
-Implement methods for Bayesian inference with a view to discovering new methods, connections to continuous formulations of neural networks, and scalable approximations to handle inference in NNs. 
+Implement methods for Bayesian inference with a view to make connections to continuous formulations of neural networks, and scalable approximations to handle inference in NNs. 
 
 Current goals are:
 1. SVGD
@@ -36,3 +36,9 @@ Miscellaneous things to try / check:
 4. Is there a nice way to do kernel operations in Fourier space ala FNOs?
 
 5. Connections to other divergence measures?
+
+Major Pending:
+
+1. Composition of $T$ in the style of normalizing flows / CNFs to test kernel hyperparameter optimization
+
+2. SVGD for BNNs - figure out posterior sampling for target pdf $p$
