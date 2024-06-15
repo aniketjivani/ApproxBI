@@ -31,7 +31,7 @@ Miscellaneous things to try / check:
 
 2. Can we use some other divergence measure to improve the quality of the approximation? Clearly, other Stein operators are possible. What is the theoretical connection? What are algorithmic connections to normalizing flows?
 
-3. Are there systematic ways to adapt the kernel bandwidth in each gradient-descent step?
+3. Are there systematic ways to adapt the kernel bandwidth in each gradient-descent step? Related (and somewhat easier to try!) - _compose layers of the descent step i.e. composition of $T$ operators with kernel bandwidth as a parameter to be optimized. What values do we get if we just gradient descent everything?_
 
 4. Is there a nice way to do kernel operations in Fourier space ala FNOs?
 
